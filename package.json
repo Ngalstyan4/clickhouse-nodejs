@@ -1,0 +1,29 @@
+{
+  "name": "clickhouse-nodejs",
+  "version": "1.0.0",
+  "description": "A node.js client for Yandex Clickhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ngalstyan4/clickhouse-nodejs.git"
+  },
+  "keywords": [
+    "clickhouse",
+    "client",
+    "sql"
+  ],
+  "author": "Narek Galstyan, Davit Khechoyan (davkhech)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ngalstyan4/clickhouse-nodejs/issues"
+  },
+  "homepage": "https://github.com/Ngalstyan4/clickhouse-nodejs#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
